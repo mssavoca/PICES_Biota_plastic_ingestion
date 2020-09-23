@@ -1,0 +1,34 @@
+﻿Scientific name,Common name,Order,Family,Trophic level,Num. w plastic,Total num. sampled,FO of plastic,Mean num particles per indv,Habitat,Primary foraging behavior,Aggregation behavior,Commercial status,Aquaculture status,IUCN status,Oceanographic province,Method type,Polymer identification,Year of collection,Publication year,Reference
+Physeter macrocephalus,Sperm whale,Artiodactyla,Physeteridae,4,2,2,1,134.5,mesopelagic,Active predation,,NA,NA,VU,CCAL,1,,2008,2010,Jacobsen et al. 2010
+Callorhinus ursinus,Northern fur seal,Carnivora,"	Otariidae",4,20,35,0.571428571,10.66,epipelagic,Active predation,,NA,NA,LC,BERS,3,,2015,2019,Donohue et al. 2019
+Callorhinus ursinus,Northern fur seal,Carnivora,"	Otariidae",4,4,9,0.44,2.78,epipelagic,Active predation,,NA,NA,LC,CCAL,3,,2015,2019,Donohue et al. 2019
+Physeter macrocephalus,Sperm whale,Artiodactyla,Physeteridae,4,1,1,1,1,mesopelagic,Active predation,,NA,NA,VU,CCAL,1,,1979,1985,Mate 1985 in Walker and Coe 1990
+Steno bredanensis,Rough-toothed dolphin,Artiodactyla,Delphinidae,4,1,9,0.11,1,epipelagic,Active predation,,NA,NA,LC,NPTG,1,,1976,1990,Walker and Coe 1990
+Lagenorhynchus obliquidens,Pacific white-sided dolphin,Artiodactyla,Delphinidae,4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1971,1990,Walker and Coe 1990
+Lagenorhynchus obliquidens,Pacific white-sided dolphin,Artiodactyla,Delphinidae,4,1,1,1,6,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1972,1990,Walker and Coe 1990
+Lagenorhynchus obliquidens,Pacific white-sided dolphin,Artiodactyla,Delphinidae,4,1,1,1,4,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1983,1990,Walker and Coe 1990
+Delphinus sp.,Common dolphin sp.,Artiodactyla,Delphinidae,4,2,2,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1972,1990,Walker and Coe 1990
+Delphinus sp.,Common dolphin sp.,Artiodactyla,Delphinidae,4,2,2,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1986,1990,Walker and Coe 1990
+Tursiops truncatus,Bottlenose dolphin,Artiodactyla,Delphinidae,4,1,1,1,3,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1971,1990,Walker and Coe 1990
+Tursiops truncatus,Bottlenose dolphin,Artiodactyla,Delphinidae,4,1,1,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1976,1990,Walker and Coe 1990
+Tursiops truncatus,Bottlenose dolphin,Artiodactyla,Delphinidae,4,1,1,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1976,1990,Walker and Coe 1990
+Tursiops truncatus,Bottlenose dolphin,Artiodactyla,Delphinidae,4,1,1,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1978,1990,Walker and Coe 1990
+Tursiops truncatus,Bottlenose dolphin,Artiodactyla,Delphinidae,4,2,2,1,2,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,1980,1990,Walker and Coe 1990
+Grampus griseus,Risso's dolphin,Artiodactyla,Delphinidae,4,1,1,1,1,mesopelagic,Active predation,,NA,NA,LC,CCAL,1,,1984,1990,Walker and Coe 1990
+Lissodelphis borealis,Northern right whale dolphin,Artiodactyla,Delphinidae,4,2,2,1,,mesopelagic,Active predation,,NA,NA,LC,CCAL,1,,1973,1990,Walker and Coe 1990
+Phocoenoides dalli,Dall's porpoise,Artiodactyla,Phocoenidae,4,2,1,1,10,,Active predation,,NA,NA,LC,CCAL,1,,1973,1990,Walker and Coe 1990
+Phocoenoides dalli,Dall's porpoise,Artiodactyla,Phocoenidae,4,1,1,1,,,Active predation,,NA,NA,LC,CCAL,1,,1978,1990,Walker and Coe 1990
+Neophocaena phocaenoides,Finless porpoise,Artiodactyla,Phocoenidae,4,7,7,1,19.1,,Active predation,,NA,NA,VU,CHIN,3,,2015,2018,Xiong et al. 2018
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,3,3,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2008,2014,Caretta et al. 2014
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,2,2,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2009,2014,Caretta et al. 2014
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2010,2014,Caretta et al. 2014
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2012,2014,Caretta et al. 2014
+Arctocephalus townsendi,Guadaluope fur seal,Carnivora,"	Otariidae",4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2012,2014,Caretta et al. 2014
+Phoca vitulina,Harbor seal,Carnivora,Phocidae,4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2010,2014,Caretta et al. 2014
+Mirounga angustirostris,Northern elephant seal,Carnivora,Phocidae,4,1,1,1,,mesopelagic,Active predation,,NA,NA,LC,CCAL,1,,2009,2014,Caretta et al. 2014
+Mirounga angustirostris,Northern elephant seal,Carnivora,Phocidae,4,1,1,1,,mesopelagic,Active predation,,NA,NA,LC,CCAL,1,,2010,2014,Caretta et al. 2014
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2013,2019,Caretta et al. 2019
+Zalophus californianus,California Sea Lion,Carnivora,"	Otariidae",4,2,2,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2016,2019,Caretta et al. 2019
+Zalophus californianus,California Sea Lion,Carnivora,Otariidae,4,3,3,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2017,2019,Caretta et al. 2019
+Mirounga angustirostris,Northern elephant seal,Carnivora,Phocidae,4,1,1,1,,epipelagic,Active predation,,NA,NA,LC,CCAL,1,,2016,2019,Caretta et al. 2019
+Balaenoptera physalus,Fin whale,Artiodactyla,Balaenopteridae,3,1,1,1,45,epipelagic,Active predation,,minor,NA,LC,CHIN,3,,2019,2020,Im et al. 2020
