@@ -842,7 +842,7 @@ dev.copy2pdf(file="NP_compare_comb_FO.pdf", width=16, height=7.5)
 
 
 
-# Quality assurance plots ----
+# Quality assurance plots----
 
 # color palette for figures
 pal <- c("Min_size" = "grey40", "Chem_digest_YN" = "dodgerblue3", 
