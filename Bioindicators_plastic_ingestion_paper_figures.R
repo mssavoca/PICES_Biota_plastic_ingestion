@@ -25,7 +25,7 @@ abbr_binom = function(binom) {
 #PICES WG42 data review, summary and plots----
 
 
-WG42_AllRevData <- read_xlsx("Biota plastic ingestion PICES review_all taxa.xlsx", sheet = 1) %>% 
+WG42_AllRevData <- read_xlsx("Supplementary data_NP biota ingestion review and bioindictaor results.xlsx", sheet = 1) %>% 
   mutate(`Num. w plastic` = as.numeric(`Num. w plastic`), 
          `Total num. sampled` = as.numeric(`Total num. sampled`),
          `FO of plastic` = as.numeric(`FO of plastic`),
@@ -45,6 +45,7 @@ WG42_AllRevData_summ <- WG42_AllRevData %>%
     ) %>% 
   summarise(
     Overall_FO = sum(`Num. w plastic`, na.rm = TRUE)/sum(`Total num. sampled`, na.rm = TRUE),
+    `Total bioindicator score` = first(`Total bioindicator score`)
     #Total_spp = n_distinct(`Scientific name`)
     ) %>% 
   arrange(-Overall_FO) 
@@ -913,7 +914,7 @@ d_fish_rubric_eval <- d_R2_PICES %>%
             `Already an indicator?` = first(`Already an indicator?`), 
             `Threat of human exposure` = first(`Threat of human exposure`), 
             `Total bioindicator score` = first(`Total bioindicator score`)) %>% 
-  mutate(Group = "fish") 
+  mutate(Group = "fishes") 
 
 d_seabird_rubric_eval <- read_csv("Seabird rubric ranking.csv") %>% 
   rename(`Degree of prior sampling` = `Prior data`,
@@ -931,18 +932,18 @@ d_seabird_rubric_eval <- read_csv("Seabird rubric ranking.csv") %>%
             `Already an indicator?` = first(`Already an indicator?`), 
             `Threat of human exposure` = first(`Threat of human exposure`), 
             `Total bioindicator score` = first(`Total bioindicator score`)) %>% 
-  mutate(Group = "seabird")
+  mutate(Group = "seabirds")
 
 
 d_invert_rubric_ranking <- read_csv("Invert rubric ranking.csv") %>% 
   select(Species:`Total bioindicator score`) %>% 
   remove_empty("rows") %>% 
   rename(`Scientific name` = Species) %>% 
-  mutate(Group = "invertebrate")
+  mutate(Group = "invertebrates")
 
 
 d_seaturtle_rubric_ranking <- read_csv("Sea turtle rubric ranking.csv") %>% 
-  mutate(Group = "sea turtle")
+  mutate(Group = "sea turtles")
 
 
 d_full_rubric_eval <- bind_rows(d_fish_rubric_eval, d_seabird_rubric_eval, d_invert_rubric_ranking, d_seaturtle_rubric_ranking) %>%
@@ -976,6 +977,7 @@ ggplot(repex, aes(x=salesfromtarget, fill=..x..))
 +geom_histogram(binwidth=.1)
 
 
+
 Rubric_scores_by_taxa_hist <- ggplot(d_full_rubric_eval) +
   geom_histogram(aes(x = `Total bioindicator score`, fill=..x..)) +
   geom_density(aes(x = `Total bioindicator score`)) +
@@ -991,10 +993,10 @@ Rubric_scores_by_taxa_hist <- ggplot(d_full_rubric_eval) +
 Rubric_scores_by_taxa_hist
 
 
-pal2 <- c("fish" = "salmon2", 
-         "invertebrate" = "gold2", 
-         "sea turtle" = "darkolivegreen3", 
-         "seabird" = "darkslategray4"
+pal2 <- c("fishes" = "salmon2", 
+         "invertebrates" = "gold2", 
+         "sea turtles" = "darkolivegreen3", 
+         "seabirds" = "darkslategray4"
 )
 
 Rubric_scores_by_taxa_dens <- ggplot(d_full_rubric_eval) +
