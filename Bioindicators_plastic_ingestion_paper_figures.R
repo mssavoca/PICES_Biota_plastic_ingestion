@@ -1014,7 +1014,6 @@ Rubric_scores_by_taxa_dens <- ggplot(d_full_rubric_eval) +
   theme_classic(base_size = 16)
 Rubric_scores_by_taxa_dens
 
-
 dev.copy2pdf(file="Rubric eval full.pdf", width=8, height=5)
 
 # Spiderplot of top scoring species---- 
