@@ -332,7 +332,8 @@ d_sk <- d_sk_org %>%
   mutate(GROUP = ifelse(ORDFAM == "Mollusca", "mollusk", GROUP),
          Complete_GIT_YN = ifelse(GITdet %in% c("c","u", NA), 1,0),  # examined complete GIT y/n
          Chem_digest_YN = ifelse(DIG %in% c("0", "u", NA), 0,1), 
-         FINC_YN = ifelse(FINC == "y", 1,0), 
+         FINC_YN = ifelse(FINC == "y", 1,0),
+         FC_YN = ifelse(FC == "y", 1,0),
          poly_conf_YN = ifelse(POL %in% c("0", NA), 0,1),
          min_YN = ifelse(is.na(Min), 0,1))    #Minimum measure size included
 filter(
@@ -360,6 +361,7 @@ d_sk_by_study <- d_sk %>%
     Complete_GIT = first(Complete_GIT_YN),
     Min_size = first(min_YN),
     FINC = first(FINC_YN),
+    FC_YN = first(FC_YN),
     Smallest_detect_size = first(Min),
   )
 
@@ -391,10 +393,10 @@ d_sk_summ <- d_sk %>%
 d_sk_analy <- d_sk %>%
   # Filters that vary as necessary by taxa
   mutate(valid_method = (
-    (GROUP == "fish" & GITdet == "c" & Min_size < 5 & FINC == "y") |
+    (GROUP == "fish" & GITdet == "c" & Min_size < 5 & FINC == "y" & FC == "y") |
       (GROUP == "seabird" & Isamp == "d") |
       (GROUP == "sea turtle" & GITdet == "c") |
-      (GROUP == "mollusk" & Min_size < 5 & FINC == "y") |
+      (GROUP == "mollusk" & Min_size < 5 & FINC == "y" &  FC == "y") |
       (GROUP == "marine mammal")
   )) %>% 
   filter(!Region %in% c("global", "South Africa unspec.", NA),
@@ -425,6 +427,7 @@ d_sk_analy_sp_summ <- d_sk_analy %>%
     Region == "N. Pacific") %>% 
   group_by(GROUP) %>% 
   summarise(num_studies = n_distinct(source_sp),
+            
             total_N = sum(Nsam, na.rm = TRUE),
             ovarall_FO = sum(Naff, na.rm = TRUE)/sum(Nsam, na.rm = TRUE),
             wt_avg_FO = weighted.mean(x = FO, w = Nsam, na.rm = TRUE),
@@ -535,14 +538,18 @@ bp_spatio_fish_short <- d_sk_analy %>%
     # YEAR > 2009,
     GITdet == "c",
     Min_size < 5,
-    FINC == "y"
+    FINC == "y",
+    FC == "y"
   ) 
 
 bp_spatio_fish_table <- bp_spatio_fish_short %>%
   group_by(Region) %>% 
   summarise(Total_sp_sam = n_distinct(SCIN), 
     Total_N = sum(Nsam, na.rm = TRUE),
-    Med_FO = mean(FO, na.rm = TRUE))
+    #Med_FO = mean(FO, na.rm = TRUE),
+    #first_q = quantile(FO, probs = 0.25, na.rm = TRUE)
+    Max_pnavg = max(pnavg,  na.rm = TRUE)
+    )
 
 
 
@@ -555,21 +562,21 @@ bp_spatio_fish <-  ggplot() +
                #bp_data("sea turtle", "long", 5),
                aes(x = 
                      # For FO plot
-                     #fct_relevel(Region, "N. Pacific", "Mediterranean", "Indian Ocean"),
+                     fct_relevel(Region, "N. Pacific", "Mediterranean", "Indian Ocean"),
                      # For part per ind plot
-                     fct_relevel(Region, "Mediterranean", "Indian Ocean", "N. Pacific"), 
-                   y = pnavg, color = Region), 
+                     #fct_relevel(Region, "Mediterranean", "Indian Ocean", "N. Pacific"), 
+                   y = FO, color = Region), 
                fill = "grey85", outlier.shape = NA,
                show.legend = FALSE) +
   geom_jitter(data = bp_spatio_fish_short,
               #bp_data("fish", "short", 5),
-              aes(x = Region, y = pnavg,
+              aes(x = Region, y = FO,
                   color = Region, size = Nsam), 
               width = 0.2,  alpha = 0.3) +
   scale_color_manual(values = pal, guide = FALSE) +
   scale_size_continuous(breaks = c(1,10,100,1000),
                         range = c(1, 6)) +
-  ylim(0,4) +
+  #ylim(0,4) +
   labs(
     #title = "Fish",
     y = "Frequency of occurrence (FO)",
@@ -585,9 +592,11 @@ layer_data(bp_spatio_fish)
 
 
 
-
-
-
+bp_spatio_fish_table <- bp_spatio_fish_short %>%
+  group_by(Region) %>% 
+  summarise(Total_sp_sam = n_distinct(SCIN), 
+            Total_N = sum(Nsam, na.rm = TRUE),
+            Med_FO = median(FO, na.rm = TRUE))
 
 
 
@@ -617,7 +626,7 @@ bp_spatio_ST <-  ggplot() +
                                            "N. Pacific",  "S. Atlantic")),
                #bp_data("sea turtle", "long", 5),
                aes(x = fct_relevel(Region, "N. Pacific",  "S. Atlantic", "Mediterranean"),
-                   y = pnavg, color = Region), 
+                   y = FO, color = Region), 
                fill = "grey85", outlier.shape = NA,
                show.legend = FALSE) +
   geom_jitter(data = bp_spatio_ST_short,    
@@ -636,7 +645,7 @@ bp_spatio_ST <-  ggplot() +
     y = "Frequency of occurrence (FO)",
     #y =  bquote("Number of particles ind"^-1),
     size = "Sample size") + 
-  ylim(0,110) +
+  #ylim(0,110) +
   theme_bw(base_size = 14)  +
   theme(plot.title = element_text(hjust = 0.5))
 bp_spatio_ST
@@ -676,15 +685,15 @@ bp_spatio_SB <- ggplot() +
                                            "Southern Ocean")),
                aes(x = 
                      # For items per ind
-                     fct_relevel(Region,"S. Pacific", "N. Pacific",
-                                 "N. Atlantic", "Indian Ocean",
-                                    "S. Atlantic",
-                                   "Southern Ocean"),
-                     # For FO
-                     # fct_relevel(Region, "Indian Ocean", "N. Pacific",
-                     #             "S. Atlantic", "S. Pacific", "N. Atlantic", 
+                     # fct_relevel(Region,"S. Pacific", "N. Pacific",
+                     #             "N. Atlantic", "Indian Ocean",
+                     #                "S. Atlantic",
                      #               "Southern Ocean"),
-                   y = pnavg, color = Region), 
+                     # For FO
+                      fct_relevel(Region, "Indian Ocean", "N. Pacific",
+                                 "S. Atlantic", "S. Pacific", "N. Atlantic",
+                                   "Southern Ocean"),
+                   y = FO, color = Region), 
                fill = "grey85", outlier.shape = NA,
                show.legend = FALSE) +
   geom_jitter(data = bp_spatio_SB_short,
@@ -735,7 +744,7 @@ bp_spatio_MM <-  ggplot() +
                #bp_data("sea turtle", "long", 5),
                aes(x = fct_relevel(Region, "S. Pacific", "N. Pacific", "Mediterranean", 
                                    "N. Atlantic","S. Atlantic"),
-                   y = pnavg, color = Region), 
+                   y = FO, color = Region), 
                fill = "grey85", outlier.shape = NA,
                show.legend = FALSE) +
   geom_jitter(data = bp_spatio_MM_short,
@@ -774,7 +783,9 @@ bp_spatio_moll_table <- bp_spatio_moll_short %>%
   group_by(Region) %>% 
   summarise(Total_sp_sam = n_distinct(SCIN), 
             Total_N = sum(Nsam, na.rm = TRUE),
-            Med_FO = mean(FO, na.rm = TRUE))
+            Med_FO = mean(FO, na.rm = TRUE),
+            Max_pnavg = max(pnavg,  na.rm = TRUE)
+            )
 
 
 bp_spatio_moll <-  ggplot() +
@@ -785,9 +796,9 @@ bp_spatio_moll <-  ggplot() +
                aes(x = 
                      #For FO
                      fct_relevel(Region, "N. Pacific", "N. Atlantic", "Mediterranean"), 
-                     # For peices per ind
+                     # For pieces per ind
                      #fct_relevel(Region,  "Mediterranean", "N. Atlantic", "N. Pacific"), 
-                   y = pnavg, color = Region), 
+                   y = FO, color = Region), 
                fill = "grey85", outlier.shape = NA,
                show.legend = FALSE) +
   geom_jitter(data = bp_spatio_moll_short,
@@ -837,7 +848,101 @@ NP_compare_comb_FO <- ggarrange(NP_compare_comb_top, NP_compare_comb_bottom,
 NP_compare_comb_FO
 
 
-dev.copy2pdf(file="NP_compare_comb_FO.pdf", width=16, height=7.5)
+dev.copy2pdf(file="sef.pdf", width=16, height=7.5)
+
+
+
+
+
+# Plastic ingestion by fish in PICES region over time----
+
+Fish_FO_PubYear <- ggplot() +
+  
+  geom_point(data = d_R2_PICES,
+             aes(`Publication year`, `FO of plastic`,
+                 color = `FO of plastic`, size = `Total num. sampled`, weight = `Total num. sampled`), alpha = 0.6) +
+  geom_smooth(data = d_R2_PICES,
+              aes(`Publication year`, `FO of plastic`,
+                  size = `Total num. sampled`, weight = `Total num. sampled`),
+              method = "lm", color = "black") +
+
+  xlim(2009,2020) + 
+  # scale_color_gradientn(colours = c("steelblue4",
+  #                                   "darkgoldenrod1",
+  #                                   "darkorange", "orangered1",
+  #                                   "firebrick1", "red3", "red4")) +
+  scale_x_continuous(breaks=seq(2010, 2020, 1)) +
+  scale_y_continuous(
+    name = "Plastic frequency of occurrence (FO)") +
+  
+  labs(x = "Publication year",
+       size = "Sample size") +
+  theme_classic(base_size = 16) +
+  theme(
+    # axis.text.x = element_text(angle = 45, hjust = 1),
+    #axis.title.y.left = element_text(color = "red3"),
+    #axis.text.y.left = element_text(color = "red3"),
+    legend.title = element_text(size = 12),
+    legend.text = element_text(size = 10),
+    legend.position = "none")
+
+Fish_FO_PubYear
+
+dev.copy2pdf(file="Fish_FO_by_year_PICES.pdf", width=6.75, height=6)
+
+
+
+
+Fish_detect_PubYear <- ggplot() +
+  
+  geom_point(data = d_PICES_by_study,
+              aes(Publication_year, Smallest_detect_size), alpha = 0.6) +
+
+  geom_smooth(data = d_PICES_by_study,
+              aes(Publication_year, Smallest_detect_size),
+              method = "lm", color = "grey50") +
+  xlim(2009,2020) +
+  scale_x_continuous(breaks=seq(2010, 2020, 2)) +
+  scale_y_continuous(name = "Minimum size thresold (mm)") +
+  
+  labs(x = "Publication year",
+       size = "Sample size") +
+  theme_classic(base_size = 16) +
+  theme(
+    # axis.text.x = element_text(angle = 45, hjust = 1),
+    #axis.title.y.left = element_text(color = "red3"),
+    #axis.text.y.left = element_text(color = "red3"),
+    axis.title.y.right = element_text(color = "grey45"),
+    axis.text.y.right = element_text(color = "grey45"),
+    legend.title = element_text(size = 12),
+    legend.text = element_text(size = 10),
+    legend.position = "none")
+
+Fish_detect_PubYear
+
+
+dev.copy2pdf(file="Fish_detect_by_year_PICES.pdf", width=6.75, height=6)
+
+
+Fish_FO_detect_PubYear <- ggarrange(Fish_FO_PubYear, Fish_detect_PubYear, 
+                                    labels = c("A","B"), 
+                                font.label = list(size = 16),
+                                legend = "none",
+                                ncol = 2, nrow = 1)
+Fish_FO_detect_PubYear
+
+dev.copy2pdf(file="Fish_FO_detect_by_year_PICES_combined.pdf", width=12, height=5)
+
+
+# regression equation stats for reporting in paper
+
+lm_fishplastic_trend <- lm(`FO of plastic`~ `Publication year`, data = d_R2_PICES)
+summary(lm_fishplastic_trend)
+
+
+lm_sizeplastic_trend <- lm(Smallest_detect_size ~ Publication_year, data = d_PICES_by_study)
+summary(lm_sizeplastic_trend)
+
 
 
 
@@ -846,18 +951,21 @@ dev.copy2pdf(file="NP_compare_comb_FO.pdf", width=16, height=7.5)
 # Quality assurance plots----
 
 # color palette for figures
-pal <- c("Min_size" = "grey40", "Chem_digest_YN" = "dodgerblue3", 
-         "Complete_GIT" = "firebrick2",  "Polymer_confirmation" = "chocolate2",
-         "FINC" = "cyan3")
+pal <- c("Chem_digest_YN" = "firebrick2", "Complete_GIT" = "dodgerblue3", 
+         "FC_YN" = "coral4", "FINC" = "cyan3", 
+         "Min_size" = "grey40", "Polymer_confirmation" = "chocolate2"
+         )
 
 
 bp_all_long <- d_sk_by_study %>% 
-  filter(Publication_year >2009, Publication_year < 2021,
+  filter(
+    Publication_year >2009, Publication_year < 2021,
          Region == "N. Pacific",         #can toggle in and out
          #Primary_taxa == "fish" #can toggle in and out
   ) %>% 
   drop_na(Primary_taxa, Region) %>% 
-  pivot_longer(cols = Polymer_confirmation:FINC, names_to = "Metric_type", values_to = "Metric_value") %>% 
+  pivot_longer(cols = Polymer_confirmation:FC_YN, names_to = "Metric_type", 
+               values_to = "Metric_value") %>% 
   
   ggplot() + 
   
@@ -870,11 +978,16 @@ bp_all_long <- d_sk_by_study %>%
   
   geom_hline(yintercept = 0.5, linetype = "dotted", color = "black") +
   
-  scale_color_manual(values = pal, labels = c("Chemical \ndigestion",
-                                              "Complete GIT \nanalyzed",
-                                              "Fibers \nanalyzed",
-                                              "Minimum size \nthreshold reported",
-                                              "Polymer \nconfirmation")) +
+  scale_color_manual(values = pal, labels = c(
+  "\nChemical \ndigestion\n",
+                                             "\nComplete GIT \nanalyzed\n",
+
+                                             "\nFiber control \nused\n",
+                                              "\nFibers \nanalyzed\n",
+                                             "\nMinimum size \nthreshold reported\n",
+                                             "\nPolymer \nconfirmation\n"
+                                             )
+                     ) +
   
   labs(x = "Publication year",
        y = "Quality assurance \nmetrics described",
@@ -887,14 +1000,18 @@ bp_all_long <- d_sk_by_study %>%
     axis.text.x = element_text(angle = 45, hjust = 1),
     legend.spacing.y = unit(0.25, 'cm'),
     legend.key.size = unit(0.75, "cm"),
-    legend.position = "top",
+    legend.position = "right",
     legend.text = element_text(size = 12),
     legend.title = element_text(size = 14))
 
 bp_all_long
 
 
-dev.copy2pdf(file="Qual_assure_NP_all_comb.pdf", width=10, height=7)
+dev.copy2pdf(file="Qual_assure_NP_all_comb_R1.pdf", width=10.5, height=6)
+
+
+
+
 
 
 
