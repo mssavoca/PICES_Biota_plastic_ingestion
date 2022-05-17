@@ -1,6 +1,6 @@
-###################################################################
-# Code for figures for PICES indicators of plastic ingestion paper
-###################################################################
+
+# Code for figures for PICES indicators of plastic ingestion paper----
+
 
 library(tidyverse)
 library(forcats)
@@ -451,7 +451,7 @@ pal <- c("N. Pacific" = "firebrick3",
 )
 
 
-# Prior long-term data of plastic ingestion by NP species ----
+# Prior long-term data of plastic ingestion by NP species (Fig. 1)----
 #seabird data by time compiled by Jennifer Provencher
 
 Fig_1_data <- read_csv("NP_seabird_rev_data_JP.csv")
@@ -527,7 +527,7 @@ bp_data <- function(taxa, min_studies) {
 
 
 
-# Combined boxplot figure----
+# Combined boxplot figure (Figs. 3 & 4)----
 
 #Fish 
 bp_spatio_fish_short <- d_sk_analy %>%
@@ -854,7 +854,7 @@ dev.copy2pdf(file="sef.pdf", width=16, height=7.5)
 
 
 
-# Plastic ingestion by fish in PICES region over time----
+# Plastic ingestion by fish in PICES region over time (Fig. 5)----
 
 Fish_FO_PubYear <- ggplot() +
   
@@ -871,7 +871,7 @@ Fish_FO_PubYear <- ggplot() +
   #                                   "darkgoldenrod1",
   #                                   "darkorange", "orangered1",
   #                                   "firebrick1", "red3", "red4")) +
-  scale_x_continuous(breaks=seq(2010, 2020, 1)) +
+  scale_x_continuous(breaks=seq(2010, 2020, 2)) +
   scale_y_continuous(
     name = "Plastic frequency of occurrence (FO)") +
   
@@ -903,7 +903,7 @@ Fish_detect_PubYear <- ggplot() +
               method = "lm", color = "grey50") +
   xlim(2009,2020) +
   scale_x_continuous(breaks=seq(2010, 2020, 2)) +
-  scale_y_continuous(name = "Minimum size thresold (mm)") +
+  scale_y_continuous(name = "Minimum size threshold (mm)") +
   
   labs(x = "Publication year",
        size = "Sample size") +
@@ -948,7 +948,7 @@ summary(lm_sizeplastic_trend)
 
 
 
-# Quality assurance plots----
+# Quality assurance plots (Fig. 6)----
 
 # color palette for figures
 pal <- c("Chem_digest_YN" = "firebrick2", "Complete_GIT" = "dodgerblue3", 
@@ -1133,7 +1133,7 @@ Rubric_scores_by_taxa_dens
 
 dev.copy2pdf(file="Rubric eval full.pdf", width=8, height=5)
 
-# Spiderplot of top scoring species---- 
+# Spiderplot of top scoring species (Fig. 7)---- 
 
 # create color pal
 
