@@ -25,7 +25,7 @@ abbr_binom = function(binom) {
 #PICES WG42 data review, summary and plots----
 
 
-WG42_AllRevData <- read_xlsx("Supplementary data_NP biota ingestion review and bioindictaor results.xlsx", sheet = 1) %>% 
+WG42_AllRevData <- read_xlsx("Supplementary data_R2.xlsx", sheet = 1) %>% 
   mutate(`Num. w plastic` = as.numeric(`Num. w plastic`), 
          `Total num. sampled` = as.numeric(`Total num. sampled`),
          `FO of plastic` = as.numeric(`FO of plastic`),
@@ -35,18 +35,18 @@ WG42_AllRevData <- read_xlsx("Supplementary data_NP biota ingestion review and b
 
 WG42_AllRevData_summ <- WG42_AllRevData %>% 
   #filter(`Total bioindicator score` > 9) %>% 
-  #arrange(-`Total bioindicator score`) %>% 
+  arrange(-`Total bioindicator score`) %>% 
   # #filter(`FO of plastic` > 0) %>% 
   #filter(`FO of plastic` != "NA") %>% 
-  filter(`Taxonomic group` == "invertebrate") %>% 
+  filter(`Taxonomic group` == "fish") %>% 
   group_by(
-    `Scientific name`
-    #`Taxonomic group`
+    `Scientific name`,
+    `Taxonomic group`
     ) %>% 
   summarise(
     Overall_FO = sum(`Num. w plastic`, na.rm = TRUE)/sum(`Total num. sampled`, na.rm = TRUE),
-    `Total bioindicator score` = first(`Total bioindicator score`)
-    #Total_spp = n_distinct(`Scientific name`)
+    `Total bioindicator score` = first(`Total bioindicator score`),
+    Total_spp = n_distinct(`Scientific name`)
     ) %>% 
   arrange(-Overall_FO) 
 
@@ -1015,7 +1015,7 @@ dev.copy2pdf(file="Qual_assure_NP_all_comb_R1.pdf", width=10.5, height=6)
 
 
 
-# Density plot of rubric scores of all species---- 
+# Density plot of rubric scores of all species (Fig. 7)---- 
 
 d_fish_rubric_eval <- d_R2_PICES %>% 
   select(`Scientific name`,`Common name`, 
@@ -1133,7 +1133,7 @@ Rubric_scores_by_taxa_dens
 
 dev.copy2pdf(file="Rubric eval full.pdf", width=8, height=5)
 
-# Spiderplot of top scoring species (Fig. 7)---- 
+# Spiderplot of top scoring species (Fig. 8)---- 
 
 # create color pal
 
