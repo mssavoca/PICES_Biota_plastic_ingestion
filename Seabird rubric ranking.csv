@@ -1,0 +1,217 @@
+﻿Scientific name,Common name,Order,Accessibility,Accessbility rationale,YEAR,Sample size,%FO,Prior data,FO in PICES,Residency,Distribution in PICES region,Distribution globally,Already an indicator?,Threat of human exposure,Total bioindicator score,AU,SOURCE,ENDN ,Region,country,area,start,nryr,Isamp,Min,GITdet,DIG ,Notes_Min,Naff,CalcM,navg,gavg,pnavg,pgavg,FINC
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2012,67,92.5,4,4,4,3,3,4,2,24,Avery-Gomm et al.,Marine Pollution Bulletin,219,North Pacific,,Western Coast CAN US,2009,2,d,0.5,s,0,sieve_size,61.975,p,36.8,0.385,36.8,0.385,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,1976,23,,4,4,4,3,3,4,2,24,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,1.47826087,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,1997,3,100,4,4,4,3,3,4,2,24,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,3,p,24,,24,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,1980,38,57.9,4,4,4,3,3,4,2,24,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,22.002,p,2.79,0.04,2.79,0.04,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2014,178,75,4,4,4,3,3,4,2,24,Donnelly-Greenan et al.,Marine Pollution Bulletin,1111,North Pacific,USA,California,2003,5,d,0.5,s,,sieve_size,133.5,u,7.4,0.1229,,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2014,185,98,4,4,4,3,3,4,2,24,Donnelly-Greenan et al.,Marine Pollution Bulletin,1111,North Pacific,USA,California,2007,5,d,0.5,s,,sieve_size,181.3,u,24.1,0.5541,,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2005,190,71,4,4,4,3,3,4,2,24,Nevins et al. ,Conference Proceedings,1057,North Pacific,USA,California,2003,2,d,,s,,no_details,134.9,u,,,3.857894737,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2020,4,100,4,4,4,3,3,4,2,24,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,4,u,,,,,u
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,1995,19,84.2,4,4,4,3,3,4,2,24,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,15.998,u,,,7.421052632,,n
+Fulmarus glacialis,Northern fulmar,Procellariiformes,Yes,,2017,143,89.5,4,4,4,3,3,4,2,24,Terepocki et al.,Marine Pollution Bulletin,1555,North Pacific,USA,Oregon,2008,6,d,1,s,,sieve_size,127.985,p,19.5,0.461,19.5,0.461,n
+Hydrobates leucorhous,Leach's storm-petrel,Procellariiformes,Yes,,1997,1,100,4,4,4,4,4,2,1,23,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,1,p,7.7,,7.7,,n
+Hydrobates leucorhous,Leach's storm-petrel,Procellariiformes,Yes,,1980,4,25,4,4,4,4,4,2,1,23,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,1,p,3,0.01,3,0.01,n
+Hydrobates leucorhous,Leach's storm-petrel,Procellariiformes,Yes,,1995,64,48.4,4,4,4,4,4,2,1,23,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,30.976,u,,,1.40625,,n
+Hydrobates leucorhous,Leach's storm-petrel,Procellariiformes,Yes,,1985,307,6.5,4,4,4,4,4,2,1,23,Watanuki,Auk,2458,North Pacific,Japan,Daikoku Island,1982,1,sf,,o,0,vis_insp,20,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1997,3,100,4,4,4,4,3,2,1,22,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,3,p,5.3,,5.3,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1984,,,4,4,4,4,3,2,1,22,Conant,Elepaio,712,North Pacific,USA,Hawaii,,,u,,,,no_details,,u,,,,,u
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,2004,,,4,4,4,4,3,2,1,22,Cooper et al.,Pacific Seabirds,1060,North Pacific,USA,Hawaii,,,u,,u,u,no_details,,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1997,93,53.8,4,4,4,4,3,2,1,22,Gould et al. ,Canadian Journal of Zoology,1058,North Pacific,,Central Pacific,1990,3,d,,s,,vis_insp,50.034,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,2012,29,51.7,4,4,4,4,3,2,1,22,Gray et al.,Marine Pollution Bulletin,38,North Pacific,USA,Hawaii,2006,3,d,,s,,vis_insp,14.993,u,,0.134,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1983,,,4,4,4,4,3,2,1,22,Harrison,Book Chapter,1215,North Pacific,USA,Hawaii,1978,3,r,,o,,vis_insp,,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,2000,,100,4,4,4,4,3,2,1,22,Kinan and Cousins,Marine Ornithology,1059,North Pacific,USA,Hawaii,1999,1,r,,u,,no_details,0,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,2017,45,82.2,4,4,4,4,3,2,1,22,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,36.99,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1990b,46,93.47826087,4,4,4,4,3,2,1,22,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,d,,s,,no_details,43,u,,,,,n
+Phoebastria nigripes,Black-footed albatross,Procellariiformes,Yes,,1990b,207,77.29468599,4,4,4,4,3,2,1,22,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,160,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2019,1,100,4,4,4,4,3,2,1,22,Tanaka et al.,Marine Pollution Bulletin,1979,North Pacific,Japan,Mukojima Island,2015,1,r,,o,,no_details,,u,,,15,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1997,251,97.6,4,4,4,4,3,2,1,22,Auman et al.,Albatross Biology and Conservation,215,North Pacific,USA,Hawaii,1994,2,d,,s,0,vis_insp,244.976,u,,,,15.6,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2004,,,4,4,4,4,3,2,1,22,Cooper et al.,Pacific Seabirds,1060,North Pacific,USA,Hawaii,,,u,,u,u,no_details,,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1980,1,0,4,4,4,4,3,2,1,22,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1985,54,85.18518519,4,4,4,4,3,2,1,22,Day et al.,Conference Proceedings,627,North Pacific,USA,Hawaii,1982,2,d,,s,,no_details,46,u,,,,,u
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1987,50,90,4,4,4,4,3,2,1,22,Fry et al.,Marine Pollution Bulletin,469,North Pacific,USA,Hawaii,1982,2,d,,c,,vis_insp,45,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1997,154,93.5,4,4,4,4,3,2,1,22,Gould et al. ,Canadian Journal of Zoology,1058,North Pacific,,Central Pacific,1990,3,d,,s,,vis_insp,143.99,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2012,18,83.3,4,4,4,4,3,2,1,22,Gray et al.,Marine Pollution Bulletin,38,North Pacific,USA,Hawaii,2006,3,d,,s,,vis_insp,14.994,u,,0.998,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1983,,,4,4,4,4,3,2,1,22,Harrison,Book Chapter,1215,North Pacific,USA,Hawaii,1978,3,r,,o,,vis_insp,,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1969,100,,4,4,4,4,3,2,1,22,Kenyon and Kridler,Auk,49,North Pacific,USA,Hawaii,1966,1,d,,u,,no_details,,u,,,2.45,1.87,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2000,,100,4,4,4,4,3,2,1,22,Kinan and Cousins,Marine Ornithology,1059,North Pacific,USA,Hawaii,1999,1,r,,u,,no_details,0,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2016,40,100,4,4,4,4,3,2,1,22,Lavers and Bond,Marine Pollution Bulletin,1453,North Pacific,USA,Hawaii,2012,1,d,,s,,no_details,40,a,132.5,52.02,132.475,52.02,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2014,24,,4,4,4,4,3,2,1,22,Nilsen et al.,Marine Pollution Bulletin,1703,North Pacific,USA,Hawaii,2005,1,b,,o,,no_details,,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1981,4,100,4,4,4,4,3,2,1,22,Pettit et al. ,American Ornithologists Union,606,North Pacific,USA,Hawaii,1979,2,d,,u,,no_details,4,u,,,27.25,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2017,126,96,4,4,4,4,3,2,1,22,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,120.96,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1990b,152,82.89473684,4,4,4,4,3,2,1,22,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,d,,s,,no_details,126,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,1990b,112,92.85714286,4,4,4,4,3,2,1,22,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,104,u,,,,,n
+Phoebastria immutabilis,Laysan albatross,Procellariiformes,Yes,,2009,,100,4,4,4,4,3,2,1,22,Young et al.,PlosOne,1065,North Pacific,USA,Hawaii,,,b,,o,,vis_insp,,u,,,,,n
+Fratercula corniculata,Horned puffin,Charadriiformes,Yes,,1997,2,50,4,3,4,4,2,2,2,21,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,1,p,47,,47,,n
+Fratercula corniculata,Horned puffin,Charadriiformes,Yes,,1980,148,36.5,4,3,4,4,2,2,2,21,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,54.02,p,0.9,0.02,0.9,0.02,n
+Fratercula corniculata,Horned puffin,Charadriiformes,Yes,,2020,3,33.33333333,4,3,4,4,2,2,2,21,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,1,u,,,,,u
+Fratercula corniculata,Horned puffin,Charadriiformes,Yes,,1995,120,36.7,4,3,4,4,2,2,2,21,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,44.04,u,,,1.033333333,,n
+Aethia psittacula,Parakeet auklet,Charadriiformes,Yes,,1980,116,75,4,4,4,3,2,2,2,21,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,87,p,13.7,0.24,13.7,0.24,n
+Aethia psittacula,Parakeet auklet,Charadriiformes,Yes,,1981,1,100,4,4,4,3,2,2,2,21,Pettit et al.,Auk,606,North Pacific,USA,Hawaii,1980,1,d,,u,,no_details,1,p,8,,8,,n
+Aethia psittacula,Parakeet Auklet,Charadriiformes,Yes,,1995,208,93,4,4,4,3,2,2,2,21,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,193.44,u,,,16.25,,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,2013,1,100,4,4,2,4,4,2,1,21,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,1,p,43,1.62,43,1.62,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,1976,21,,4,4,2,4,4,2,1,21,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,6.904761905,,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,1997,20,75,4,4,2,4,4,2,1,21,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,15,p,3.4,,3.4,,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,1980,76,43.4,4,4,2,4,4,2,1,21,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,32.984,p,1.14,0.02,1.14,0.02,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,1985,191,49.21465969,4,4,2,4,4,2,1,21,Day et al.,Conference Proceedings,627,North Pacific,USA,California,1977,3,u,,s,,no_details,94,u,,,,,u
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,1990,218,88.5,4,4,2,4,4,2,1,21,Ogi,Conference Proceedings,733,North Pacific,at sea,at sea,1970,18,d,,s,,no_details,192.93,u,,,7.481651376,,n
+Ardenna grisea,Sooty shearwater,Procellariiformes,Yes,,2017,25,64,4,4,2,4,4,2,1,21,Terepocki et al.,Marine Pollution Bulletin,1555,North Pacific,USA,Oregon,2010,3,d,1,s,,sieve_size,16,p,13.3,0.09,13.3,0.09,n
+Fratercula cirrhata,Tufted puffin,Charadriiformes,Yes,,2013,1,0,4,3,4,3,2,2,2,20,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Fratercula cirrhata,Tufted puffin,Charadriiformes,Yes,,1997,9,89,4,3,4,3,2,2,2,20,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,8.01,p,1.5,,1.5,,n
+Fratercula cirrhata,Tufted puffin,Charadriiformes,Yes,,1980,148,14.7,4,3,4,3,2,2,2,20,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,21.756,p,0.49,0.01,0.49,0.01,n
+Fratercula cirrhata,Tufted puffin,Charadriiformes,Yes,,2020,19,36.84210526,4,3,4,3,2,2,2,20,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,7,u,,,,,u
+Fratercula cirrhata,Tufted puffin,Charadriiformes,Yes,,1995,489,24.5,4,3,4,3,2,2,2,20,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,119.805,u,,,0.936605317,,n
+Pterodroma hypoleuca,Bonin petrel,Procellariiformes,Yes,,2016,8,75,4,4,4,2,3,2,1,20,Lavers and Bond,Marine Pollution Bulletin,1453,North Pacific,USA,Hawaii,2012,1,d,,s,,no_details,6,a,3.7,0.05,2.75,,n
+Pterodroma hypoleuca,Bonin petrel,Procellariiformes,Yes,,2017,6,100,4,4,4,2,3,2,1,20,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,6,u,,,,,n
+Pterodroma hypoleuca,Bonin petrel,Procellariiformes,Yes,,1990b,58,29,4,4,4,2,3,2,1,20,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,d,,s,,no_details,16.82,u,,,,,n
+Hydrobates furcatus,Fork-tailed storm-petrel,Procellariiformes,Yes,,1997,7,100,2,4,4,4,3,2,1,20,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,7,p,20.1,,20.1,,n
+Hydrobates furcatus,Fork-tailed storm-petrel,Procellariiformes,Yes,,1980,8,100,2,4,4,4,3,2,1,20,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,8,p,6.17,0.02,6.17,0.02,n
+Hydrobates furcatus,Fork-tailed storm-petrel,Procellariiformes,Yes,,1995,21,85.7,2,4,4,4,3,2,1,20,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,17.997,u,,,5,,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,1976,6,,4,4,2,4,3,2,1,20,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,21.66666667,,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,1980,200,83.5,4,4,2,4,3,2,1,20,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,167,p,5.39,0.1,5.39,0.1,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,2013,2,100,4,4,2,4,3,2,1,20,Hong et al.,Marine Pollution Bulletin,43,North Pacific,South Korea,all coasts,2010,3,d,,u,,no_details,2,u,,,,,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,1990,324,81.8,4,4,2,4,3,2,1,20,Ogi,Conference Proceedings,733,North Pacific,at sea,at sea,1970,18,d,,s,,no_details,265.032,u,,,7.191358025,,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,1995,5,80,4,4,2,4,3,2,1,20,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,4,u,,,,,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,2002,330,83.9,4,4,2,4,3,2,1,20,Vliestra and Parga,Marine Pollution Bulletin,98,North Pacific,USA,Bering Sea,1997,6,d,,s,,vis_insp,276.87,p,5.8,0.114,5.8,0.114,n
+Ardenna tenuirostris,Short-tailed shearwater,Procellariiformes,Yes,,2011,99,,4,4,2,4,3,2,1,20,Yamashita et al.,Marine Pollution Bulletin,664,North Pacific,at sea,Bering Sea,2003,3,d,,s,,vis_insp,,u,15.1,0.23,,,n
+Uria lomvia,Thick-billed murre,Charadriiformes,Yes,,1980,138,1.4,4,2,4,2,3,2,2,19,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,1.932,p,0.03,,0.03,,n
+Uria lomvia,Thick-billed murre,Charadriiformes,Yes,,1995,92,0,4,2,4,2,3,2,2,19,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Aethia cristatella,Crested auklet,Charadriiformes,Yes,,1980,85,0,4,3,4,2,2,2,2,19,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Aethia cristatella,Crested auklet,Charadriiformes,Yes,,2020,7,85.71428571,4,3,4,2,2,2,2,19,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,6,u,,,,,u
+Aethia cristatella,Crested Auklet,Charadriiformes,Yes,,1995,40,2.5,4,3,4,2,2,2,2,19,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,1,u,,,,,n
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,2013,3,33,3,3,4,2,3,2,2,19,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0.99,p,0.33,0.0058,0.33,0.0058,n
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,1976,8,,3,3,4,2,3,2,2,19,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,0.125,,n
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,1980,63,0,3,3,4,2,3,2,2,19,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,1985,,,3,3,4,2,3,2,2,19,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1984,1,r,,s,,no_details,,u,,,,,u
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,2020,2,50,3,3,4,2,3,2,2,19,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,1,u,,,,,u
+Larus glaucescens,Glaucous-winged gull,Charadriiformes,Yes,,1995,21,0,3,3,4,2,3,2,2,19,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Uria aalge,Common murre,Charadriiformes,Yes,,2013,37,2.7,4,2,4,2,2,2,2,18,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0.999,p,0.03,0.0003,0.03,0.0003,n
+Uria aalge,Common murre,Charadriiformes,Yes,,1997,1,0,4,2,4,2,2,2,2,18,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,0,p,0,0,0,0,n
+Uria aalge,Common murre,Charadriiformes,Yes,,1980,191,0,4,2,4,2,2,2,2,18,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Uria aalge,Common murre,Charadriiformes,Yes,,2020,6,16.66666667,4,2,4,2,2,2,2,18,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,1,u,,,,,u
+Uria aalge,Common murre,Charadriiformes,Yes,,1995,134,0.8,4,2,4,2,2,2,2,18,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,1.072,u,,,,,n
+Sterna paradisaea,Arctic tern,Charadriiformes,Yes,,1980,21,0,2,1,4,4,3,2,2,18,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Rissa tridactyla,Black-legged kittiwake,Charadriiformes,Yes,,1976,8,,4,2,4,2,2,2,2,18,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,0.5,,n
+Rissa tridactyla,Black-legged kittiwake,Charadriiformes,Yes,,1980,188,4.8,4,2,4,2,2,2,2,18,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,9.024,p,0.07,,0.07,,n
+Rissa tridactyla,Black-legged kittiwake,Charadriiformes,Yes,,2020,5,20,4,2,4,2,2,2,2,18,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,1,u,,,,,u
+Rissa tridactyla,Black-legged kittiwake,Charadriiformes,Yes,,1995,256,7.8,4,2,4,2,2,2,2,18,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,19.968,u,,,0.2734375,,n
+Larus crassirostris,Black-tailed gull,Charadriiformes,Yes,,2013,19,100,2,4,4,2,3,2,1,18,Hong et al.,Marine Pollution Bulletin,43,North Pacific,South Korea,all coasts,2010,3,d,,u,,no_details,19,u,,,,,n
+Phalaropus fulicarius,Red Phalarope,Charadriiformes,Yes,,1984,16,56.25,2,4,4,2,2,2,2,18,Briggs et al.,Report,2207,North Pacific,USA,California,1981,1,d,0.3,s,0,,9,u,,,,,n
+Phalaropus fulicarius,Red phalarope,Charadriiformes,Yes,,1982,7,85.7,2,4,4,2,2,2,2,18,Connors and Smith,Marine Pollution Bulletin,612,North Pacific,USA,California,1982,1,d,,s,0,no_details,5.999,u,,,5.7,0.03,n
+Phalaropus fulicarius,Red phalarope,Charadriiformes,Yes,,2018,9,100,2,4,4,2,2,2,2,18,Drever et al.,Marine Pollution Bulletin,1889,North Pacific,Canada,Vancouver Island,2016,1,d,,s,,sieve_size,9,p,12.3,0.039,12.3,0.039,n
+Phalaropus fulicarius,Red phalarope,Charadriiformes,Yes,,2005,3,100,2,4,4,2,2,2,2,18,Nevins et al. ,Conference Proceedings,1057,North Pacific,USA,California,2003,2,d,,s,,no_details,3,u,,,7.333333333,,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,2013,1,0,4,3,4,1,1,2,2,17,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,1980,10,40,4,3,4,1,1,2,2,17,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,4,p,3.8,0.01,3.8,0.01,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,2017,78,41.5,4,3,4,1,1,2,2,17,Floren & Shugart,Marine Pollution Bulletin,1708,North Pacific,USA,Oregon,2014,1,d,1,c,,sieve_size,32.37,a,5.7,0.0715,5.179487179,0.065115385,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,2017,850,0.4,4,3,4,1,1,2,2,17,Hipfner et al.,Marine Pollution Bulletin,1583,North Pacific,Canada,British Colombia,1996,21,r,0.063,o,,filter_size,3.4,u,,,0.004705882,,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,2019,85,40,4,3,4,1,1,2,2,17,O'Hara et al.,Science of the Total Environment,1911,North Pacific,Canada,Vancouver Island,2014,1,d,1,s,,vis_insp,34,p,1.6,0.0085,1.6,0.0085,n
+Ptychoramphus aleuticus,Cassin's auklet,Charadriiformes,Yes,,1995,35,11.4,4,3,4,1,1,2,2,17,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,3.99,u,,,,,n
+Aethia pusilla,Least auklet,Charadriiformes,Yes,,1980,89,1.1,4,1,4,2,2,2,2,17,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0.979,p,0.01,,0.01,,n
+Aethia pusilla,Least Auklet,Charadriiformes,Yes,,1995,13,0,4,1,4,2,2,2,2,17,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Larus canus,Mew gull,Charadriiformes,Yes,,1976,4,,2,2,4,2,3,2,2,17,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,0.25,,n
+Larus canus,Mew gull,Charadriiformes,Yes,,1980,10,0,2,2,4,2,3,2,2,17,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Larus canus,Mew gull,Charadriiformes,Yes,,1995,4,25,2,2,4,2,3,2,2,17,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,1,u,,,,,n
+Cepphus columba,Pigeon guillemot,Charadriiformes,Yes,,2013,10,0,3,1,4,2,2,2,2,16,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Cepphus columba,Pigeon guillemot,Charadriiformes,Yes,,1980,18,0,3,1,4,2,2,2,2,16,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Cepphus columba,Pigeon guillemot,Charadriiformes,Yes,,2020,8,0,3,1,4,2,2,2,2,16,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,0,p,0,,0,,u
+Cepphus columba,Pigeon guillemot,Charadriiformes,Yes,,1995,43,2.63,3,1,4,2,2,2,2,16,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,1.1309,u,,,,,n
+Rissa brevirostris,Red-legged kittiwake,Charadriiformes,Yes,,1980,46,13,3,2,4,1,2,2,2,16,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,5.98,p,0.17,,0.17,,n
+Rissa brevirostris,Red-legged kittiwake,Charadriiformes,Yes,,1995,15,26.7,3,2,4,1,2,2,2,16,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,4.005,u,,,,,n
+Aethia pygmaea,Whiskered Auklet,Charadriiformes,Yes,,2010,486,0.21,4,1,4,1,2,2,2,16,Bond et al. ,Marine Pollution Bulletin,8,North Pacific,USA,Aleuten Islands,1993,14,r,,o,0,vis_insp,1.0206,a,1,0.02,0.002057613,0.0001,n
+Aethia pygmaea,Whiskered Auklet,Charadriiformes,Yes,,1980,5,0,4,1,4,1,2,2,2,16,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Aethia pygmaea,Whiskered Auklet,Charadriiformes,Yes,,1995,22,0,4,1,4,1,2,2,2,16,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Hydrobates tristrami,Tristram's storm-petrel,Procellariiformes,Yes,,1983,,,3,4,2,2,2,2,1,16,Harrison  ,Book Chapter,1215,North Pacific,USA,Hawaii,1978,3,r,,o,,vis_insp,,u,,,,,n
+Hydrobates tristrami,Tristram's storm-petrel,Procellariiformes,Yes,,2017,58,100,3,4,2,2,2,2,1,16,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,58,u,,0.7447,,,n
+Hydrobates tristrami,Tristram's storm-petrel,Procellariiformes,Yes,,1990b,35,34.28571429,3,4,2,2,2,2,1,16,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,12,u,,,,,n
+Hydrobates tristrami,Tristram's storm-petrel,Procellariiformes,Yes,,2018,57,100,3,4,2,2,2,2,1,16,Youngren et al.,Marine Pollution Bulletin,1631,North Pacific,USA,Hawaii,2007,6,d,0.5,s,,sieve_size,57,p,203,0.7454,203,0.7454,n
+Ardenna pacifica,Wedge-tailed shearwater,Procellariiformes,Yes,,1987,20,60,4,4,2,1,2,2,1,16,Fry et al.,Marine Pollution Bulletin,469,North Pacific,USA,Hawaii,1984,1,d,,c,,vis_insp,12,u,,,,,n
+Ardenna pacifica,Wedge-tailed shearwater,Procellariiformes,Yes,,2016,32,56.25,4,4,2,1,2,2,1,16,Kain et al.,Environmental Science and Pollution Research,1556,North Pacific,USA,Hawaii,2007,8,d,,c,,no_details,18,p,,,3.125,,n
+Ardenna pacifica,Wedge-tailed shearwater,Procellariiformes,Yes,,2017,4,75,4,4,2,1,2,2,1,16,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,3,u,,,,,n
+Ardenna pacifica,Wedge-tailed shearwater,Procellariiformes,Yes,,1990b,641,12.32449298,4,4,2,1,2,2,1,16,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,79,u,,,,,n
+Cerorhinca monocerata,Rhinoceros auklet,Charadriiformes,Yes,,2013,32,0,3,1,4,1,2,2,2,15,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Cerorhinca monocerata,Rhinoceros auklet,Charadriiformes,Yes,,1976,26,,3,1,4,1,2,2,2,15,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,0.115384615,,n
+Cerorhinca monocerata,Rhinoceros auklet,Charadriiformes,Yes,,1997,6,0,3,1,4,1,2,2,2,15,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,0,p,0,0,0,0,n
+Cerorhinca monocerata,Rhinoceros auklet,Charadriiformes,Yes,,1980,20,0,3,1,4,1,2,2,2,15,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Cerorhinca monocerata,Rhinoceros auklet,Charadriiformes,Yes,,1995,1,0,3,1,4,1,2,2,2,15,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Sula sula,Red-footed booby,Suliformes ,Yes,,2017,19,5.3,4,3,2,1,2,2,1,15,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,1.007,u,,,,,n
+Sula sula,Red-footed booby,Suliformes ,Yes,,1990b,169,1.775147929,4,3,2,1,2,2,1,15,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,3,u,,,,,n
+Sula sula,Red-footed booby,Suliformes ,Yes,,2019,5,60,4,3,2,1,2,2,1,15,Zhu et al.,Marine Pollution Bulletin,2224,North Pacific,China,Yongxing Island,2017,1,d,0.02,c,KOH 10%,filter_size,3,u,,,1.8,,n
+Clangula hyemalis,Long-tailed duck,Anseriformes,Yes,,1985,11,0,2,1,4,1,2,2,2,14,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1977,2,u,,s,,no_details,0,u,,,0,0,u
+Anous stolidus,Brown Noddy,Charadriiformes,Yes,,2017,18,5.6,4,2,2,1,2,2,1,14,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,1.008,u,,,,,n
+Anous stolidus,Brown Noddy,Charadriiformes,Yes,,1990b,153,0.653594771,4,2,2,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,1,u,,,,,n
+Larus heermanni,Heermann's gull,Charadriiformes,Yes,,1976,15,,2,1,4,1,3,2,1,14,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,0.133333333,,n
+Onychoprion fuscatus,Sooty tern,Charadriiformes,Yes,,2017,14,0,4,2,2,1,2,2,1,14,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0,p,0,0,0,0,n
+Onychoprion fuscatus,Sooty tern,Charadriiformes,Yes,,1990b,97,6.18556701,4,2,2,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,6,u,,,,,n
+Pelecanus occidentalis,Brown pelican,Pelecaniformes,Yes,,2009,14,43,2,3,4,1,1,2,1,14,Dau et al.,Journal of Wildlife Disease,1097,North Pacific,USA,California,2001,6,d,,s,,no_details,6.02,u,,,,,n
+Phaethon rubricauda,Red-tailed tropicbird,Phaethontiformes,Yes,,2017,5,20,4,2,2,1,2,2,1,14,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,1,u,,,,,n
+Phaethon rubricauda,Red-tailed tropicbird,Phaethontiformes,Yes,,1990b,166,11.44578313,4,2,2,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,19,u,,,,,n
+Bulweria bulwerii,Bulwer's petrel,Procellariiformes,Yes,,1983,,,2,2,4,1,2,2,1,14,Harrison,Wildlife Monograph,739,North Pacific,USA,Hawaii,,,,,,,,,,,,,,
+Bulweria bulwerii,Bulwer's petrel,Procellariiformes,Yes,,2017,2,0,2,2,4,1,2,2,1,14,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0,p,0,0,0,0,n
+Bulweria bulwerii,Bulwer's petrel,Procellariiformes,Yes,,1990b,38,5.263157895,2,2,4,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,d,,s,,no_details,2,u,,,,,n
+Puffinus nativitatis,Christmas shearwater,Procellariiformes,Yes,,1990b,39,17.94871795,2,3,2,1,3,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,7,u,,,,,n
+Puffinus newelli,Newell's shearwater,Procellariiformes,Yes,,2016,30,50,3,3,2,1,2,2,1,14,Kain et al.,Environmental Science and Pollution Research,1556,North Pacific,USA,Hawaii,2007,8,d,,c,,no_details,15,p,1.2,0.01,1.2,0.01,n
+Puffinus newelli,Newell's shearwater,Procellariiformes,Yes,,1990b,18,11,3,3,2,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,1.98,u,,,,,n
+Fregata minor,Great frigatebird,Suliformes ,Yes,,2017,39,38.5,3,3,2,1,2,2,1,14,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,15.015,u,,,,,n
+Fregata minor,Great frigatebird,Suliformes ,Yes,,1990b,45,18,3,3,2,1,2,2,1,14,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,8.1,u,,,,,n
+Urile pelagicus,Pelagic cormorant,Suliformes ,Yes,,2013,1,0,2,2,4,1,2,2,1,14,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Urile pelagicus,Pelagic cormorant,Suliformes ,Yes,,1980,3,0,2,2,4,1,2,2,1,14,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Urile pelagicus,Pelagic cormorant,Suliformes ,Yes,,2020,10,30,2,2,4,1,2,2,1,14,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,3,u,,,,,u
+Urile pelagicus,Pelagic cormorant,Suliformes ,Yes,,1995,10,20,2,2,4,1,2,2,1,14,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,2,u,,,,,n
+Phaethon lepturus,White-tailed tropicbird,Phaethontiformes,Yes,,2013,3,33,2,3,2,1,2,2,1,13,Hyrenbach et al.,Marine Ornithology,1073,North Pacific,USA,Hawaii,2009,1,d,,u,,no_details,0.99,u,,,0.3,,n
+Ardenna gravis,Great shearwater,Procellariiformes,Yes,,2013,60,45,3,3,2,1,1,2,1,13,Haman et al.,Journal of Wildlife Disease,1205,North Pacific,USA,West Coast USA,1993,19,d,,c,,vis_insp,27,u,,,,,n
+Sula dactylatra,Masked booby,Suliformes ,Yes,,2017,2,50,2,3,2,1,2,2,1,13,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,1,u,,,,,n
+Sula dactylatra,Masked booby,Suliformes ,Yes,,1990b,20,5,2,3,2,1,2,2,1,13,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,1,u,,,,,n
+Melanitta perspicillata,Surf scoter,Anseriformes,Yes,,2013,2,0,2,1,2,1,2,2,2,12,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Melanitta perspicillata,Surf scoter,Anseriformes,Yes,,1985,11,0,2,1,2,1,2,2,2,12,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1977,2,u,,s,,no_details,0,u,,,0,0,u
+Anous minutus,Black noddy,Charadriiformes,Yes,,2017,9,0,2,2,2,1,2,2,1,12,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0,p,0,0,0,0,n
+Anous minutus,Black noddy,Charadriiformes,Yes,,1990b,35,3,2,2,2,1,2,2,1,12,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,1.05,u,,,,,n
+Gygis alba,Common white tern,Charadriiformes,Yes,,2017,11,0,2,1,2,1,2,2,1,11,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0,p,0,0,0,0,n
+Gygis alba,Common white tern,Charadriiformes,Yes,,1990b,35,0,2,1,2,1,2,2,1,11,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,0,u,,,0,0,n
+Onychoprion lunatus,Grey-backed tern,Charadriiformes,Yes,,2017,1,0,2,1,2,1,2,2,1,11,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0,p,0,0,0,0,n
+Onychoprion lunatus,Grey-backed Tern,Charadriiformes,Yes,,1990b,35,0,2,1,2,1,2,2,1,11,Sileo et al.,Conference Proceedings,623,North Pacific,USA,Hawaii,1986,2,sf,,o,,no_details,0,u,,,0,0,n
+Phalacrocorax urile,Great Pied Cormorant,Suliformes ,Yes,,1980,2,0,2,1,2,1,2,2,1,11,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Phalacrocorax urile,Great Pied Cormorant,Suliformes ,Yes,,1995,16,0,2,1,2,1,2,2,1,11,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Aythya marila,Greater scaup,Anseriformes,No,,2013,1,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Aythya marila,Greater scaup,Anseriformes,No,,1985,3,0,1,,,,,,,,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1977,2,u,,s,,no_details,0,u,,,0,0,u
+Histrionicus histrionicus,Harlequin Duck,Anseriformes,No,,2013,1,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Histrionicus histrionicus,Harlequin Duck,Anseriformes,No,,1985,6,0,1,,,,,,,,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1977,2,u,,s,,no_details,0,u,,,0,0,u
+Melanitta deglandi,White-winged scoter,Anseriformes,No,,1985,5,0,1,,,,,,,,Day et al.,Conference Proceedings,627,North Pacific,USA,Alaska,1977,2,u,,s,,no_details,0,u,,,0,0,u
+Onychoprion aleuticus,Aleutian tern,Charadriiformes,No,,1980,8,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Synthliboramphus antiquus,Ancient murrelet,Charadriiformes,No,Species at risk in Canada,2013,5,0,,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Synthliboramphus antiquus,Ancient murrelet,Charadriiformes,No,Species at risk in Canada,1980,16,0,,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Synthliboramphus antiquus,Ancient murrelet,Charadriiformes,No,Species at risk in Canada,1995,68,0,,,,,,,,,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Stercorarius parasiticus,Arctic jaeger,Charadriiformes,No,,1980,1,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Larus ridibundus,Black-headed Gull,Charadriiformes,No,,2013,1,100,1,,,,,,,,Hong et al.,Marine Pollution Bulletin,43,North Pacific,South Korea,all coasts,2010,3,d,,u,,no_details,1,u,,,,,n
+Larus philadelphia,Bonaparte's Gull,Charadriiformes,No,,1980,4,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Larus hyperboreus,Glaucous gull,Charadriiformes,No,,1980,33,3,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0.99,p,0.03,,0.03,,n
+Synthliboramphus hypoleucus,Guadalupe murrelet,Charadriiformes,No,,1997,5,0,1,,,,,,,,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,0,p,0,0,0,0,n
+Pagophila eburnea,Ivory gull,Charadriiformes,No,Species at risk in Canada,1980,1,0,,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Brachyramphus brevirostris,Kittlitz's Murrelet,Charadriiformes,No,Species at risk in Canada,1980,5,0,,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Brachyramphus brevirostris,Kittlitz's Murrelet,Charadriiformes,No,Species at risk in Canada,1995,17,0,,,,,,,,,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Brachyramphus marmoratus,Marbled Murrelet,Charadriiformes,No,Species at risk in Canada,2013,7,0,,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Brachyramphus marmoratus,Marbled Murrelet,Charadriiformes,No,Species at risk in Canada,1980,61,0,,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Brachyramphus marmoratus,Marbled Murrelet,Charadriiformes,No,Species at risk in Canada,1995,96,0,,,,,,,,,Robards et al. ,Marine Pollution Bulletin,727,North Pacific,USA,Alaska,1988,3,d,,s,,no_details,0,u,,,0,,n
+Stercorarius pomarinus,Pomarine jaeger,Charadriiformes,No,,1980,1,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Phalaropus lobatus,Red-necked phalarope,Charadriiformes,No,,1980,3,66.7,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,2.001,p,1,0.01,1,0.01,n
+Xema sabini,Sabine's gull,Charadriiformes,No,,1980,1,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Larus occidentalis,Western gull,Charadriiformes,No,,1985,,,1,,,,,,,,Day et al.,Conference Proceedings,627,North Pacific,,,,,d,,s,,no_details,,u,,,,,u
+Larus occidentalis,Western gull,Charadriiformes,No,,1985,,,1,,,,,,,,Day et al.,Conference Proceedings,627,North Pacific,,,,,u,,s,,no_details,,u,,,,,u
+Larus michahellis,Yellow-legged gull,Charadriiformes,No,,1980,5,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Gavia arctica,Arctic Loon,Gaviiformes,No,,2013,1,100,1,,,,,,,,Hong et al.,Marine Pollution Bulletin,43,North Pacific,South Korea,all coasts,2010,3,d,,u,,no_details,1,u,,,,,n
+Gavia immer,Common Loon,Gaviiformes,No,,2013,2,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Gavia pacifica,Pacific loon,Gaviiformes,No,,2013,2,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Gavia pacifica,Pacific loon,Gaviiformes,No,,2013,1,100,1,,,,,,,,Hong et al.,Marine Pollution Bulletin,43,North Pacific,South Korea,all coasts,2010,3,d,,u,,no_details,1,u,,,,,n
+Gavia stellata,Red-throated loon,Gaviiformes,No,,2013,2,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Podiceps grisegena,Red-necked grebe,Podicipediformes,No,,2013,1,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Aechmophorus occidentalis,Western Grebe,Podicipediformes,No,,2013,2,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Phoebastria immutabilis,Black-footed albatross,Procellariiformes,No,Species at risk in US,2019,5,100,,,,,,,,,Tanaka et al.,Marine Pollution Bulletin,1979,North Pacific,Japan,Mukojima Island,2015,1,r,,o,,no_details,,u,,,4,,n
+Pterodroma phaeopygia,Galapagos petrel,Procellariiformes,No,,1997,,,1,,,,,,,,Robards et al. ,Book Chapter,711,North Pacific,USA,,,,d,,s,,no_details,,u,,,,,n
+Ardenna creatopus,Pink-footed Shearwater,Procellariiformes,No,,1976,5,,1,,,,,,,,Baltz and Morejohn,Western Birds,737,North Pacific,USA,California,1974,2,d,,u,u,no_details,,u,,,2.4,,n
+Ardenna creatopus,Pink-footed Shearwater,Procellariiformes,No,,2008,,,1,,,,,,,,Environment Canada,Report,715,North Pacific,Canada,all coasts,2008,1,u,,u,,no_details,,u,,,,,n
+Phoebastria albatrus,Short-tailed albatross,Procellariiformes,No,,2018,6,66.7,1,,,,,,,,Donnelly-Greenan et al.,Marine Ornithology,1674,North Pacific,USA,US coast,1995,20,d,0.5,s,,sieve_size,4.002,a,4.75,0.2921,3.2,0.1947,n
+Phoebastria albatrus,Short-tailed albatross,Procellariiformes,No,,2008,,,1,,,,,,,,Environment Canada,Report,715,North Pacific,Canada,all coasts,2008,1,u,,u,,no_details,,u,,,,,n
+Pterodroma longirostris,Stejneger's petrel,Procellariiformes,No,,1997,1,100,1,,,,,,,,Blight and Burger,Marine Pollution Bulletin,309,North Pacific,,Eastern Pacific,1987,1,d,,s,0,no_details,1,p,3.3,,3.3,,n
+Sula nebouxii,Blue-footed booby,Suliformes ,No,,1997,,,1,,,,,,,,Laist,Book Chapter,625,North Pacific,USA,Hawaii,,,,,,,no_details,,u,,,,,u
+Sula leucogaster,Brown booby,Suliformes ,No,,2017,3,33.3,1,,,,,,,,Rapp et al.,Marine Pollution Bulletin,1584,North Pacific,USA,Hawaii,2006,8,d,0.5,s,,sieve_size,0.999,u,,,,,n
+Nannopterum auritus,Double-crested Cormorant,Suliformes ,No,,2013,2,0,1,,,,,,,,Avery-Gomm et al.,Marine Pollution Bulletin,2,North Pacific,Canada,Vancouver,2001,11,d,1,s,0,sieve_size,0,p,0,0,0,0,n
+Nannopterum auritus,Double-crested Cormorant,Suliformes ,No,,1980,4,0,1,,,,,,,,Day  ,Thesis Report,726,North Pacific,USA,Alaska,1969,9,d,,s,,vis_insp,0,p,0,0,0,0,n
+Urile urile,Red-faced cormorant,Suliformes ,No,,2020,10,30,1,,,,,,,,Padula et al.,Marine Pollution Bulletin,2320,North Pacific,USA,Aleutian Islands,2009,7,d,,s,0,vis_insp,3,u,,,,,u
