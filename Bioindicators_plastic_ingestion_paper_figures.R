@@ -38,7 +38,7 @@ WG42_AllRevData_summ <- WG42_AllRevData %>%
   arrange(-`Total bioindicator score`) %>% 
   # #filter(`FO of plastic` > 0) %>% 
   #filter(`FO of plastic` != "NA") %>% 
-  filter(`Taxonomic group` == "fish") %>% 
+  filter(`Taxonomic group` == "fish") %>%
   group_by(
     `Scientific name`,
     `Taxonomic group`
